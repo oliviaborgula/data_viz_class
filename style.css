@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  canvas {
+    max-width: 100%;
+  }
+
+  #chart-1 {
+    margin: 10px auto;
+    max-width: 2200px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

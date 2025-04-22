@@ -7,9 +7,27 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Every Daily Show guest, in charts</h1>
-  <canvas id="chart-1" width="400" height="200"></canvas>
+  <h1>Every Jon Stewart guest on 'The Daily Show'</h1>
 
+<!--line chart -->
+  <div class="chart-block">
+    <h2>The total number of guests each year stayed consistent until Stewart's final year in 2015</h2>
+    <p class="subhead">There were about 160 guests each year, ranging from 100 in 2015 to 169 in 2000.</p>
+    <canvas id="chart-1"></canvas>
+    <p class="byline">Source: <a href="https://github.com/fivethirtyeight/data/tree/master/daily-show-guests" target="_blank">FiveThirtyEight</a> | Chart by Olivia Borgula</p>
+  </div>
+
+  <!-- polar area chart -->
+  <div class="chart-block">
+    <h2>Actors and comedians made up the largest share of guests</h2>
+    <p class="subhead">Politicians and government officials made up the second-highest category.</p>
+    <canvas id="chart-2"></canvas>
+    <p class="byline">Source: <a href="https://github.com/fivethirtyeight/data/tree/master/daily-show-guests" target="_blank">FiveThirtyEight</a> | Chart by Olivia Borgula</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>

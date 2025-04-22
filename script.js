@@ -35,11 +35,14 @@ const config = {
     },
     scales: {
       y: {
-        min: 60, 
-        max: 200 
+        min: 60,
+        max: 200,
+        grid: {
+          color: '#7e7e7e'
+        }
       }
     }
-  }
+  } 
 };
 
 const ctx = document.getElementById('chart-1').getContext('2d');
@@ -147,7 +150,10 @@ const config3 = {
     },
     scales: {
       y: {
-        beginAtZero: true
+        beginAtZero: true,
+        grid: {
+          color: '#7e7e7e' 
+        }
       }
     }
   }

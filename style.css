@@ -1,74 +1,74 @@
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 50px;
-    background: #141517; 
-    color: #fff;
-  }
-  
-  .page-container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px; 
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 45px; 
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  
-  .header-byline{
-    text-align: center;
-    font-size: 15px;
-    color: #c8c8c8;
-  }
+  background-color: #141517;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
 
-  .intro {
-    color: #e7e7e7;
-    font-size: 15px;
-    line-height: 1.6;
-    text-align: center; 
-    font-weight: none;
-  }
-  
+.page-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
 
-  .header-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
-  }
-  
-  .chart-block {
-    max-width: 700px;
-    margin: 40px auto;
-    text-align: left;
-  }
-  
-  h2 {
-    font-size: 22px;
-    margin-bottom: 4px;
-  }
-  
-  .subhead {
-    color: #c8c8c8;
-    font-size: 15px;
-    margin: 0 0 8px 0;
-  }
-  
-  canvas {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
-    margin: 0; 
-  }
-  
-  .byline {
-    font-size: 13px;
-    color: #c8c8c8;
-    margin-top: 6px;
-  }
+.header-img {
+  display: block;
+  margin: 40px auto;
+  width: 80%; 
+  max-width: 700px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.header-byline {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.dots{
+  display: block;
+  margin: 40px auto;
+  width: 18%; 
+  max-width: 700px;
+  margin-bottom: 150px;
+}
+
+.body-text{
+  text-align: left;
+}
+
+.chart-block {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.subhead {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.byline {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  color: #aaa;
+}
   
   a{
     text-decoration: underline;

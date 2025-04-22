@@ -5,23 +5,39 @@ body {
     color: #fff;
   }
   
+  .page-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px; 
+  }
+  
   h1 {
     text-align: center;
-    margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 45px; 
+    line-height: 1.2;
+    margin-bottom: 10px;
   }
+  
+  .header-byline{
+    text-align: center;
+    font-size: 15px;
+    color: #c8c8c8;
+  }
+
+  .intro {
+    color: #e7e7e7;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center; 
+    font-weight: none;
+  }
+  
 
   .header-img {
     display: block;
     margin: 0 auto;
     max-width: 50%;
     height: auto;
-  }
-
-  .intro {
-    text-align: center;
-    margin-bottom: 60px;
-    color: #c8c8c8;
   }
   
   .chart-block {
@@ -36,7 +52,7 @@ body {
   }
   
   .subhead {
-    color: #555;
+    color: #c8c8c8;
     font-size: 15px;
     margin: 0 0 8px 0;
   }
@@ -50,7 +66,11 @@ body {
   
   .byline {
     font-size: 13px;
-    color: #888;
+    color: #c8c8c8;
     margin-top: 6px;
   }
   
+  a{
+    text-decoration: underline;
+    color: #c8c8c8;
+  }

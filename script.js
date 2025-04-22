@@ -60,7 +60,8 @@ const data2 = {
       'rgba(75, 192, 192, 0.7)',
       'rgba(153, 102, 255, 0.7)',
       'rgba(255, 159, 64, 0.7)'
-    ]
+    ],
+    borderWidth: 0 
   }]
 };
 
@@ -76,11 +77,17 @@ const config2 = {
     },
     scales: {
       r: {
+        grid: {
+          color: '#888888' 
+        },
+        angleLines: {
+          color: '#444444' 
+        },
         pointLabels: {
-          display: false 
+          color: '#fffff' 
         },
         ticks: {
-          display: true 
+          color: 'black' 
         }
       }
     }

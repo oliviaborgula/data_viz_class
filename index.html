@@ -7,7 +7,12 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Every Jon Stewart guest on 'The Daily Show'</h1>
+  <h1>
+    Every Jon Stewart<br>
+    guest on 'The Daily Show'
+  </h1>
+  <img src="header_pic.png" alt="header banner featuring Jon Stewart guests" class="header-img">
+  <h5 class="intro">Stewart returned to the satirical news show in 2024 after hosting from 1999 to 2015. Here's a look at all of Stewart's guests over the years.</h5>
 
 <!--line chart -->
   <div class="chart-block">
@@ -17,6 +22,14 @@
     <p class="byline">Source: <a href="https://github.com/fivethirtyeight/data/tree/master/daily-show-guests" target="_blank">FiveThirtyEight</a> | Chart by Olivia Borgula</p>
   </div>
 
+    <!-- multi-line chart -->
+    <div class="chart-block">
+      <h2>The share of guest occuption type evened out over time</h2>
+      <p class="subhead">Actors, musicians and comedians were far more common in Stewart's earlier years hosting.</p>
+      <canvas id="chart-3"></canvas>
+      <p class="byline">Source: <a href="https://github.com/fivethirtyeight/data/tree/master/daily-show-guests" target="_blank">FiveThirtyEight</a> | Chart by Olivia Borgula</p>
+    </div>
+
   <!-- polar area chart -->
   <div class="chart-block">
     <h2>Actors and comedians made up the largest share of guests</h2>
@@ -25,11 +38,9 @@
     <p class="byline">Source: <a href="https://github.com/fivethirtyeight/data/tree/master/daily-show-guests" target="_blank">FiveThirtyEight</a> | Chart by Olivia Borgula</p>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="script.js"></script>
-</body>
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
